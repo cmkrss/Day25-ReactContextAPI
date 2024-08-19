@@ -1,8 +1,28 @@
-# React + Vite
+# Product List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Product List App is a React application that fetches and displays a list of products from a Google Drive file. Each product's details, including title, description, price, discount, rating, stock, brand, category, thumbnail, and images, are shown in a user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetches product data from a Google Drive file.
+- Displays detailed information about each product.
+- Shows product thumbnails and images.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [npm](https://www.npmjs.com/) (comes bundled with Node.js)
+
+## Getting Started
+
+To get the project up and running on your local machine, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/cart-app.git
+   cd cart-app
